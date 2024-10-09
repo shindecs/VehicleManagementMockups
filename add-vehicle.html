@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<!--begin::Head-->
+	<head><base href=""/>
+		<title>Search Vehicle</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<!--end::Head-->
+	<!--begin::Body-->
+	<body id="kt_app_body" data-kt-app-layout="light-header" data-kt-app-header-fixed="true" data-kt-app-toolbar-enabled="true" class="app-default">
+		
+		<!--begin::App-->
+		<div class="d-flex flex-column flex-root app-root" id="kt_app_root">
+			<!--begin::Page-->
+			<div class="app-page flex-column flex-column-fluid" id="kt_app_page">
+				<div id="kt_app_header" class="app-header">
+					<!--begin::Header container-->
+					<div class="app-container container-fluid d-flex align-items-stretch justify-content-between" id="kt_app_header_container">
+						<!--begin::Logo-->
+						<div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0 me-lg-15">
+							<a href="search-vehicle.html">
+								<img alt="Logo" src="images/logo.png" class="h-50px app-sidebar-logo-default" />
+							</a>
+						</div>
+						<!--end::Logo-->
+						<!--begin::Header wrapper-->
+						<div class="d-flex align-items-stretch justify-content-between flex-lg-grow-1" id="kt_app_header_wrapper">
+								<!--begin::Menu wrapper-->
+										<div class="app-header-menu app-header-mobile-drawer align-items-stretch" data-kt-drawer="true" data-kt-drawer-name="app-header-menu" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="250px" data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_app_header_menu_toggle" data-kt-swapper="true" data-kt-swapper-mode="{default: 'append', lg: 'prepend'}" data-kt-swapper-parent="{default: '#kt_app_body', lg: '#kt_app_header_wrapper'}">
+											<!--begin::Menu-->
+											
+											<div class="app-header-menu app-header-mobile-drawer align-items-stretch" data-kt-drawer="true" data-kt-drawer-name="app-header-menu" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="250px" data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_app_header_menu_toggle" data-kt-swapper="true" data-kt-swapper-mode="{default: 'append', lg: 'prepend'}" data-kt-swapper-parent="{default: '#kt_app_body', lg: '#kt_app_header_wrapper'}">
+											<!--begin::Menu-->
+											<div class="menu menu-rounded menu-column menu-lg-row my-5 my-lg-0 align-items-stretch fw-semibold px-2 px-lg-0" id="kt_app_header_menu" data-kt-menu="true">
+												<!--begin:Menu item-->
+												<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item  menu-lg-down-accordion me-0 me-lg-2">
+													<!--begin:Menu link-->
+													<a href="#"><span class="menu-link">
+														<span class="svg-icon svg-icon-2 me-2">
+															
+															<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+												 width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
+												 preserveAspectRatio="xMidYMid meet">
+
+												<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+												fill="#000000" stroke="none">
+												<path d="M255 4866 c-102 -25 -171 -81 -217 -174 l-33 -67 0 -2065 0 -2065 26
+												-56 c47 -100 129 -165 237 -188 75 -16 4509 -16 4584 0 108 23 190 88 237 188
+												l26 56 0 2065 0 2065 -26 56 c-47 100 -129 165 -237 188 -80 17 -4528 14
+												-4597 -3z m4578 -200 c18 -7 43 -26 57 -40 25 -28 25 -28 28 -257 l3 -229
+												-2361 0 -2361 0 3 229 c3 229 3 229 28 256 53 58 -100 54 2328 55 1878 0 2248
+												-2 2275 -14z m87 -2423 c0 -1665 0 -1699 -20 -1730 -10 -18 -31 -40 -47 -50
+												-26 -17 -128 -18 -2273 -21 -1508 -2 -2257 0 -2280 7 -20 6 -49 24 -65 41
+												l-30 31 -3 1710 -2 1709 2360 0 2360 0 0 -1697z"/>
+												<path d="M484 4484 c-60 -29 -73 -107 -25 -155 38 -38 87 -39 129 -4 56 47 51
+												118 -10 155 -39 24 -53 24 -94 4z"/>
+												<path d="M862 4480 c-41 -25 -56 -59 -48 -104 8 -44 47 -76 93 -76 45 0 69 14
+												89 52 45 87 -51 180 -134 128z"/>
+												<path d="M1270 4489 c-61 -24 -85 -85 -54 -137 34 -59 108 -70 155 -23 39 40
+												40 89 2 130 -32 33 -67 43 -103 30z"/>
+												<path d="M3665 3549 c-86 -13 -201 -54 -275 -97 -36 -20 -105 -77 -155 -127
+												-109 -108 -172 -219 -206 -361 -28 -116 -23 -292 11 -399 78 -248 268 -437
+												515 -515 146 -46 360 -37 510 22 171 67 336 227 415 402 68 150 84 350 41 509
+												-70 265 -286 481 -547 547 -91 24 -228 32 -309 19z m15 -501 l0 -302 213 -213
+												c173 -174 209 -216 197 -224 -8 -6 -37 -21 -65 -34 -165 -79 -367 -72 -527 18
+												-323 181 -387 625 -128 888 36 36 88 79 115 95 43 25 165 73 188 74 4 0 7
+												-136 7 -302z m360 244 c79 -38 207 -168 247 -252 82 -170 78 -357 -10 -523
+												l-30 -58 -184 183 -183 183 0 262 0 262 53 -16 c28 -8 77 -27 107 -41z"/>
+												<path d="M1687 3209 c-48 -28 -47 -18 -47 -814 l0 -745 -125 0 -125 0 0 423
+												c0 382 -2 425 -18 457 -26 54 -54 59 -327 59 -271 1 -307 -5 -335 -52 -19 -30
+												-20 -54 -20 -458 l0 -426 -62 -6 c-55 -5 -67 -10 -92 -38 -24 -27 -27 -38 -23
+												-73 4 -27 15 -49 32 -63 l26 -23 969 0 969 0 26 23 c17 14 28 36 32 63 5 36 1
+												46 -24 74 -29 32 -34 34 -116 38 l-87 5 0 744 c0 798 1 786 -49 813 -26 14
+												-580 13 -604 -1z m453 -874 l0 -685 -150 0 -150 0 0 685 0 685 150 0 150 0 0
+												-685z m-952 -317 l2 -368 -150 0 -150 0 0 363 c0 200 3 367 7 371 4 3 70 5
+												147 4 l141 -3 3 -367z"/>
+												<path d="M3064 1634 c-60 -29 -73 -107 -25 -155 l29 -29 707 0 c787 0 744 -4
+												766 69 15 50 -8 97 -56 117 -53 22 -1376 20 -1421 -2z"/>
+												<path d="M545 1057 c-17 -14 -28 -36 -32 -63 -5 -36 -1 -46 25 -75 25 -28 37
+												-34 72 -34 72 0 121 76 89 138 -30 59 -106 76 -154 34z"/>
+												<path d="M1007 1055 c-34 -34 -40 -67 -23 -110 29 -70 -97 -65 1776 -65 1858
+												0 1742 -4 1775 61 14 27 15 39 6 70 -23 75 138 69 -1784 69 l-1724 0 -26 -25z"/>
+												</g>
+												</svg>
+														</span>
+														<span class="menu-title">Home</span>
+														
+													</span></a>
+													<!--end:Menu link-->
+													
+												</div>
+												<!--end:Menu item-->
+												<!--begin:Menu item-->
+												<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
+													<!--begin:Menu link-->
+													<span class="menu-link">
+														<span class="svg-icon svg-icon-1 me-2">
+													<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+											 width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
+											 preserveAspectRatio="xMidYMid meet">
+
+											<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+											fill="#000000" stroke="none">
+											<path d="M4382 5105 c-35 -7 -87 -25 -117 -39 -97 -44 -97 -45 -405 -343 l-76
+											-73 -40 19 c-148 72 -348 35 -466 -86 -27 -27 -160 -226 -312 -463 l-264 -415
+											76 -78 77 -77 -104 -104 -104 -105 -51 43 c-79 67 -111 80 -191 80 -85 0 -134
+											-22 -192 -88 -91 -103 -86 -239 14 -346 l52 -56 -107 -107 -107 -106 -52 49
+											c-87 81 -192 101 -288 56 -65 -30 -102 -68 -133 -135 -20 -44 -24 -64 -20
+											-115 6 -73 25 -113 84 -176 l43 -46 -107 -107 -108 -107 -39 41 c-104 108
+											-255 119 -361 26 -66 -58 -88 -107 -88 -192 0 -81 21 -130 84 -199 l39 -42
+											-104 -104 -103 -103 -49 43 c-67 60 -115 80 -193 80 -82 0 -132 -22 -187 -83
+											-70 -76 -88 -176 -47 -274 7 -18 34 -55 60 -83 l47 -51 -230 -232 c-247 -249
+											-276 -289 -302 -415 -69 -333 226 -641 561 -584 142 25 178 50 435 305 l232
+											230 51 -47 c28 -26 65 -53 83 -60 98 -41 198 -23 274 47 61 55 83 105 83 187
+											0 78 -20 126 -80 193 l-43 49 103 103 103 104 46 -41 c74 -65 116 -82 196 -82
+											85 0 134 22 192 88 93 106 82 257 -26 361 l-41 39 107 108 107 107 46 -43 c62
+											-58 101 -77 172 -83 72 -7 134 15 190 65 113 102 116 258 8 375 l-49 52 106
+											107 107 107 56 -52 c107 -100 243 -105 346 -14 65 57 88 107 88 192 0 80 -14
+											113 -80 191 l-43 51 105 104 104 104 77 -77 78 -76 415 264 c237 152 436 285
+											463 312 122 120 158 317 84 468 l-21 45 174 172 c189 187 233 247 273 372 29
+											93 31 263 3 345 -68 201 -197 337 -386 405 -93 33 -233 42 -328 20z m270 -176
+											c132 -44 233 -146 278 -280 18 -53 21 -81 18 -159 -3 -82 -8 -105 -36 -164
+											-28 -59 -57 -94 -202 -240 l-169 -171 -313 313 -313 313 170 168 c213 211 263
+											239 423 240 59 1 100 -5 144 -20z m-950 -422 c55 -33 790 -771 813 -816 23
+											-45 30 -135 16 -188 -13 -46 -69 -126 -91 -131 -22 -4 -1074 1052 -1067 1071
+											8 21 71 67 114 83 58 22 162 13 215 -19z m575 -1243 c-19 -17 -537 -344 -545
+											-344 -9 0 -812 803 -812 812 0 4 68 114 151 245 84 131 163 256 176 277 l25
+											39 509 -509 c390 -390 506 -511 496 -520z m-1072 -64 l230 -230 -105 -105
+											-105 -105 -232 232 -233 233 102 102 c57 57 105 103 108 103 3 0 109 -103 235
+											-230z m-333 -328 c409 -408 428 -429 428 -464 0 -55 -36 -93 -89 -93 -41 0
+											-44 3 -468 428 -425 424 -428 427 -428 468 0 53 38 89 93 89 35 0 56 -19 464
+											-428z m-245 -244 c123 -123 223 -227 223 -233 0 -5 -46 -56 -102 -112 l-103
+											-103 -232 232 -233 233 102 102 c57 57 107 103 113 103 5 0 110 -100 232 -222z
+											m-330 -331 c409 -408 423 -424 423 -460 0 -51 -15 -76 -55 -93 -26 -10 -41
+											-11 -62 -3 -36 13 -841 814 -858 854 -29 65 14 125 89 125 40 0 44 -4 463
+											-423z m-119 -584 c-57 -57 -107 -103 -113 -103 -13 0 -455 442 -455 455 0 5
+											46 56 102 112 l103 103 232 -232 233 -233 -102 -102z m-895 426 c32 -16 836
+											-819 853 -852 32 -59 -14 -127 -85 -127 -34 0 -58 22 -463 428 -402 401 -428
+											429 -428 462 0 72 65 119 123 89z m312 -1009 l-105 -105 -232 232 -233 233
+											105 105 105 105 232 -232 233 -233 -105 -105z m-456 6 l434 -434 -6 -39 c-8
+											-50 -46 -83 -95 -83 -35 0 -56 19 -464 428 -414 414 -428 428 -428 465 0 51
+											44 97 92 97 30 0 69 -37 467 -434z m-244 -246 l230 -231 -220 -218 c-253 -250
+											-273 -264 -402 -269 -72 -4 -89 -1 -140 23 -76 34 -135 93 -168 167 -24 53
+											-27 70 -23 141 5 128 19 149 267 400 118 119 217 217 220 217 4 0 110 -104
+											236 -230z"/>
+											<path d="M4464 4777 c-186 -71 -227 -312 -72 -431 47 -35 85 -48 148 -48 144
+											-2 262 126 247 268 -16 156 -181 264 -323 211z m133 -179 c33 -31 32 -90 -3
+											-117 -36 -28 -79 -27 -109 4 -31 30 -32 73 -4 109 27 34 82 36 116 4z"/>
+											<path d="M518 816 c-141 -38 -222 -185 -174 -319 44 -122 178 -192 301 -157
+											59 16 137 86 160 142 21 52 22 141 2 189 -46 112 -173 176 -289 145z m117
+											-181 c50 -49 17 -135 -53 -135 -50 0 -82 32 -82 81 0 71 85 105 135 54z"/>
+											</g>
+											</svg>
+														</span>
+														<span class="menu-title">Material Part</span>
+														<span class="menu-arrow "></span>
+													</span>
+													<!--end:Menu link-->
+													<!--begin:Menu sub-->
+													<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown px-lg-2 py-lg-4 w-lg-250px rounded-0 menu-top-b">
+														<!--begin:Menu item-->
+														<div data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
+															<!--begin:Menu link-->
+															<a href="#"><span class="menu-link"><span class="menu-title">
+																Search Part</span>
+															</span></a>
+															<!--end:Menu link-->
+															<!--begin:Menu sub-->
+															
+															<!--end:Menu sub-->
+														</div>
+														<!--end:Menu item-->
+														
+														<!--begin:Menu item-->
+														<div class="menu-item">
+															<!--begin:Menu link-->
+															<a class="menu-link" href="#">
+																<span class="menu-title">Add Rebuilt Part</span>
+															</a>
+															<!--end:Menu link-->
+														</div>
+														<!--end:Menu item-->
+														
+														<!--begin:Menu item-->
+														<div class="menu-item">
+															<!--begin:Menu link-->
+															<a class="menu-link" href="#">
+																<span class="menu-title">Add Non Stock Part</span>
+															</a>
+															<!--end:Menu link-->
+														</div>
+														<!--end:Menu item-->
+													</div>
+													<!--end:Menu sub-->
+												</div>
+												<!--end:Menu item-->
+												
+												<!--begin:Menu item-->
+												<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2  here show menu-here-bg">
+													<!--begin:Menu link-->
+													<span class="menu-link">
+														<span class="svg-icon svg-icon-1 me-2">
+													<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+													 width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
+													 preserveAspectRatio="xMidYMid meet">
+
+													<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+													fill="#000000" stroke="none">
+													<path d="M2562 4640 c-73 -26 -143 -80 -185 -142 -68 -101 -67 -89 -67 -814
+													l0 -652 -157 -4 c-149 -3 -162 -5 -220 -32 -110 -50 -142 -95 -307 -423 -97
+													-195 -153 -296 -170 -306 -14 -9 -196 -60 -406 -112 -210 -53 -398 -104 -418
+													-114 -67 -34 -130 -99 -164 -169 l-33 -67 0 -345 0 -345 27 -57 c73 -156 207
+													-227 428 -228 l75 0 28 -61 c40 -85 148 -197 236 -243 165 -87 347 -88 521 -4
+													86 42 194 149 241 240 l34 68 472 0 472 0 37 -71 c71 -134 211 -245 360 -284
+													160 -41 350 0 485 106 56 45 132 142 161 207 l19 42 137 0 c163 0 247 12 317
+													46 65 30 138 107 173 182 l27 57 0 365 0 365 -32 66 c-42 85 -98 136 -212 194
+													-50 25 -91 47 -91 49 0 2 15 27 34 55 19 28 40 74 46 103 8 38 10 337 8 1063
+													l-3 1010 -29 60 c-38 76 -110 149 -184 183 l-57 27 -775 2 c-741 2 -777 2
+													-828 -17z m1590 -268 l33 -32 0 -995 0 -995 -27 -26 -26 -27 -145 290 c-163
+													325 -189 360 -303 410 -57 24 -64 31 -64 56 0 37 -25 83 -53 99 -30 18 -656
+													24 -717 8 -50 -14 -88 -48 -96 -88 -6 -28 -10 -30 -66 -36 -34 -3 -76 -6 -94
+													-6 l-34 0 0 640 c0 707 -2 680 63 721 31 19 52 19 764 17 l733 -3 32 -33z
+													m-552 -1614 c27 -19 64 -84 200 -351 92 -181 174 -335 181 -342 8 -7 106 -61
+													219 -119 155 -80 210 -114 223 -135 15 -26 17 -65 17 -331 0 -249 -3 -306 -15
+													-330 -27 -51 -58 -60 -219 -60 l-146 0 -6 28 c-30 132 -64 200 -144 286 -103
+													109 -221 168 -364 181 -267 24 -530 -169 -589 -431 l-14 -59 -446 -3 c-402 -2
+													-447 -1 -447 14 0 34 -52 169 -86 222 -80 125 -213 216 -359 247 -88 18 -132
+													18 -220 0 -216 -45 -394 -219 -437 -426 l-12 -59 -83 0 c-56 0 -94 5 -113 15
+													-57 30 -60 46 -60 360 l0 285 33 36 c31 34 39 36 408 129 207 51 393 100 414
+													109 33 14 131 16 834 16 861 1 824 -2 862 56 41 62 9 157 -61 181 -26 9 -216
+													12 -717 12 -376 1 -683 3 -683 6 0 3 50 104 110 225 90 180 116 224 143 240
+													31 19 53 20 788 20 l756 0 33 -22z m-1983 -1448 c62 -27 137 -102 164 -163 36
+													-82 33 -175 -10 -261 -114 -232 -443 -233 -556 -1 -127 259 138 540 402 425z
+													m1998 3 c70 -23 156 -110 180 -182 24 -72 17 -189 -14 -249 -29 -57 -87 -113
+													-147 -143 -40 -20 -64 -24 -134 -24 -73 0 -92 4 -136 27 -72 38 -140 117 -160
+													186 -41 142 13 289 134 359 92 54 170 62 277 26z"/>
+													<path d="M2813 4150 c-71 -43 -82 -136 -24 -194 l31 -31 480 -3 c531 -3 520
+													-4 561 61 23 37 21 93 -6 133 -34 53 -46 54 -547 54 -442 0 -464 -1 -495 -20z"/>
+													<path d="M2823 3655 c-38 -16 -73 -68 -73 -108 0 -42 26 -90 59 -110 26 -15
+													75 -17 509 -17 471 0 480 0 506 21 31 25 56 69 56 101 0 37 -34 90 -71 110
+													-31 17 -67 18 -494 18 -372 -1 -466 -3 -492 -15z"/>
+													<path d="M1131 4367 c-49 -25 -65 -60 -69 -156 l-4 -89 -43 -17 c-66 -25 -130
+													-87 -167 -163 -30 -60 -33 -75 -33 -152 1 -73 5 -93 30 -143 61 -122 165 -185
+													325 -196 108 -7 134 -20 145 -71 7 -33 -16 -84 -44 -100 -11 -5 -85 -10 -166
+													-10 -162 0 -199 -9 -230 -56 -21 -33 -24 -98 -6 -132 21 -39 70 -62 134 -62
+													l57 0 0 -47 c0 -110 45 -173 123 -173 46 0 99 27 116 59 6 11 14 54 18 96 l6
+													76 53 25 c31 15 73 47 103 80 152 166 101 427 -101 530 -42 22 -74 28 -153 34
+													-117 8 -131 13 -150 51 -18 34 -19 50 -4 83 21 46 62 56 228 56 150 0 151 0
+													181 28 35 30 51 82 39 126 -17 61 -74 96 -159 96 l-50 0 0 83 c0 59 -5 89 -16
+													105 -33 47 -111 66 -163 39z"/>
+													</g>
+													</svg>
+															
+														</span>
+														<span class="menu-title">Vehicle Estimate</span>
+														<span class="menu-arrow "></span>
+													</span>
+													<!--end:Menu link-->
+													<!--begin:Menu sub-->
+													<div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown px-lg-2 py-lg-4 w-lg-250px rounded-0 menu-top-b">
+														
+														<!--begin:Menu item-->
+														<div class="menu-item">
+															<!--begin:Menu link-->
+															<a class="menu-link" href="search-vehicle.html" >
+																<span class="menu-title">Search Vehicle Estimate</span>
+															</a>
+															<!--end:Menu link-->
+														</div>
+														<!--end:Menu item-->
+														<!--begin:Menu item-->
+														<div class="menu-item">
+															<!--begin:Menu link-->
+															<a class="menu-link" href="add-vehicle.html" >
+																<span class="menu-title">Add Vehicle Estimate</span>
+															</a>
+															<!--end:Menu link-->
+														</div>
+														<!--end:Menu item-->
+													</div>
+													<!--end:Menu sub-->
+												</div>
+												<!--end:Menu item-->
+																						
+												<!--begin:Menu item-->
+												<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item  menu-lg-down-accordion me-0 me-lg-2">
+													<!--begin:Menu link-->
+													<span class="menu-link">
+														<span class="svg-icon svg-icon-1 me-2">
+															<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+												 width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
+												 preserveAspectRatio="xMidYMid meet">
+
+												<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+												fill="#000000" stroke="none">
+												<path d="M3540 4954 c-208 -27 -407 -101 -580 -217 -96 -64 -273 -241 -337
+												-337 -95 -142 -163 -301 -199 -470 -27 -125 -25 -391 3 -515 30 -128 81 -262
+												106 -280 35 -25 82 -19 107 12 26 34 24 54 -20 178 -163 465 19 1003 435 1282
+												514 346 1206 211 1554 -303 268 -397 249 -926 -47 -1310 -203 -263 -539 -433
+												-860 -434 -43 0 -58 -5 -77 -25 -34 -33 -33 -78 1 -112 26 -25 28 -26 128 -20
+												321 20 597 145 827 376 147 146 240 293 307 481 52 149 66 237 66 420 0 183
+												-14 271 -66 420 -67 188 -160 335 -307 481 -185 185 -380 293 -631 350 -83 19
+												-331 33 -410 23z"/>
+												<path d="M2363 4715 c-65 -46 -226 -340 -282 -516 -62 -198 -75 -283 -75 -514
+												-1 -206 8 -287 44 -417 22 -77 123 -84 151 -11 6 16 1 55 -13 121 -18 81 -22
+												130 -22 302 0 190 2 214 28 325 47 200 114 356 227 525 72 107 78 140 35 177
+												-31 27 -62 29 -93 8z"/>
+												<path d="M3625 4455 c-21 -20 -25 -34 -25 -83 l0 -59 -44 -17 c-144 -55 -226
+												-227 -182 -381 14 -46 29 -69 74 -115 57 -57 78 -67 270 -141 85 -32 152 -84
+												180 -139 49 -95 7 -223 -92 -285 -44 -27 -58 -30 -130 -30 -69 0 -89 5 -134
+												28 -28 15 -75 50 -102 77 -38 38 -58 50 -81 50 -40 0 -79 -39 -79 -80 0 -68
+												174 -205 286 -226 l34 -6 0 -60 c0 -49 4 -63 25 -83 15 -16 36 -25 55 -25 19
+												0 40 9 55 25 21 20 25 34 25 85 0 33 4 60 10 60 35 0 127 48 174 91 96 87 143
+												203 133 325 -13 166 -130 284 -367 368 -101 36 -147 64 -170 102 -26 40 -25
+												87 1 140 48 100 197 111 324 24 41 -27 80 -26 110 5 33 32 33 78 0 111 -29 29
+												-135 81 -182 90 -33 6 -33 7 -33 66 0 49 -4 63 -25 83 -15 16 -36 25 -55 25
+												-19 0 -40 -9 -55 -25z"/>
+												<path d="M1575 2870 c-192 -12 -473 -38 -549 -51 -107 -19 -199 -84 -248 -176
+												-14 -26 -85 -228 -159 -449 l-133 -400 -78 -38 c-131 -64 -210 -158 -237 -284
+												-6 -29 -11 -144 -11 -258 0 -204 0 -205 25 -229 l24 -25 351 0 351 0 24 25
+												c24 23 25 31 25 136 0 144 -11 181 -75 244 -69 70 -92 75 -344 75 -116 0 -211
+												2 -211 5 0 18 43 85 72 111 48 45 93 69 180 98 245 80 755 113 1598 103 500
+												-6 703 -15 930 -43 346 -42 515 -118 555 -251 l6 -23 -212 0 c-252 0 -275 -5
+												-344 -75 -64 -63 -75 -100 -75 -244 0 -105 1 -113 25 -136 l24 -25 351 0 351
+												0 24 25 c25 24 25 25 25 232 0 221 -9 282 -51 365 -32 63 -109 131 -197 174
+												l-79 39 -133 400 c-73 220 -144 422 -158 448 -30 56 -93 117 -151 147 -90 46
+												-488 80 -991 85 -195 2 -422 -1 -505 -5z m995 -170 c227 -17 400 -40 429 -55
+												68 -35 83 -66 208 -442 l120 -359 -106 17 c-244 39 -645 59 -1216 59 -564 0
+												-955 -18 -1208 -56 -59 -9 -110 -14 -113 -11 -4 3 47 164 111 357 123 368 138
+												400 206 435 42 22 241 43 674 69 111 7 759 -3 895 -14z m-1795 -1445 c21 -20
+												25 -34 25 -80 l0 -55 -240 0 -240 0 0 80 0 80 215 0 c216 0 216 0 240 -25z
+												m2905 -55 l0 -80 -240 0 -240 0 0 55 c0 46 4 60 25 80 24 25 24 25 240 25
+												l215 0 0 -80z"/>
+												<path d="M4736 2591 c-231 -221 -492 -354 -803 -410 -118 -21 -143 -37 -143
+												-93 0 -36 40 -78 74 -78 50 0 241 42 344 76 253 83 499 238 681 429 81 85 90
+												117 46 160 -47 48 -73 37 -199 -84z"/>
+												<path d="M1426 1429 c-62 -15 -153 -68 -197 -116 -56 -61 -98 -155 -106 -236
+												-5 -61 -4 -67 20 -91 51 -51 137 -17 137 55 0 91 81 202 166 227 59 17 1049
+												17 1108 0 85 -25 166 -136 166 -227 0 -72 86 -106 137 -55 24 24 25 30 20 92
+												-9 88 -60 194 -123 251 -25 24 -75 57 -112 74 l-67 32 -555 2 c-315 1 -572 -3
+												-594 -8z"/>
+												<path d="M185 775 c-16 -15 -25 -36 -25 -55 0 -51 38 -80 105 -80 l55 0 0
+												-136 c0 -170 9 -204 75 -269 63 -64 100 -75 245 -75 145 0 182 11 245 75 66
+												65 75 99 75 269 l0 136 1040 0 1040 0 0 -136 c0 -170 9 -204 75 -269 63 -64
+												100 -75 245 -75 145 0 182 11 245 75 66 65 75 99 75 269 l0 136 55 0 c46 0 60
+												4 80 25 33 32 33 78 0 110 l-24 25 -1791 0 -1791 0 -24 -25z m615 -270 c0
+												-131 -1 -137 -25 -160 -23 -24 -31 -25 -135 -25 -104 0 -112 1 -135 25 -24 23
+												-25 29 -25 160 l0 135 160 0 160 0 0 -135z m2720 0 c0 -131 -1 -137 -25 -160
+												-23 -24 -31 -25 -135 -25 -104 0 -112 1 -135 25 -24 23 -25 29 -25 160 l0 135
+												160 0 160 0 0 -135z"/>
+												</g>
+												</svg>
+														</span>
+														<span class="menu-title">Make/Buy</span>
+													</span>
+													<!--end:Menu link-->
+												</div>
+												<!--end:Menu item-->
+												
+												<!--begin:Menu item-->
+												<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item  menu-lg-down-accordion me-0 me-lg-2">
+													<!--begin:Menu link-->
+													<span class="menu-link">
+														<span class="svg-icon svg-icon-1 me-2">
+															<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+											 width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
+											 preserveAspectRatio="xMidYMid meet">
+
+											<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+											fill="#000000" stroke="none">
+											<path d="M3535 5028 c-2 -7 -15 -57 -29 -111 -13 -54 -26 -100 -28 -101 -1 -1
+											-19 -9 -39 -18 l-36 -16 -97 61 -98 60 -215 -215 -215 -215 60 -98 60 -99 -16
+											-35 c-9 -20 -17 -38 -19 -39 -1 -2 -50 -16 -110 -31 l-108 -27 -3 -272 -2
+											-272 -1128 -2 -1128 -3 -76 -37 c-91 -45 -147 -103 -191 -196 l-32 -67 0
+											-1056 0 -1055 37 -76 c45 -91 103 -147 196 -191 l67 -32 368 -3 367 -3 0 -159
+											0 -159 -189 -3 c-207 -3 -216 -6 -265 -72 -19 -25 -21 -42 -21 -166 0 -151 5
+											-167 69 -214 l27 -21 2150 -3 2149 -2 0 201 c0 374 -54 580 -218 829 -141 213
+											-389 409 -622 491 -36 12 -66 24 -68 25 -2 1 32 38 75 81 255 255 257 642 6
+											901 l-63 64 24 95 c13 52 26 96 28 97 1 1 19 9 39 18 l35 16 99 -60 98 -60
+											214 215 215 214 -60 98 -60 99 16 35 c9 20 17 38 19 39 1 2 50 16 110 31 l108
+											27 0 304 0 304 -108 27 c-60 15 -109 29 -110 31 -2 1 -10 19 -19 39 l-16 35
+											60 99 60 98 -215 214 -214 215 -98 -60 -99 -60 -35 16 c-20 9 -38 17 -39 19
+											-2 1 -16 50 -31 110 l-27 108 -302 3 c-237 2 -303 0 -307 -10z m506 -242 l22
+											-94 41 -12 c23 -7 73 -27 111 -46 l70 -33 84 50 84 51 125 -125 125 -125 -50
+											-83 -50 -82 33 -73 c18 -39 38 -90 44 -111 l12 -40 94 -22 94 -23 0 -178 0
+											-178 -94 -23 -94 -22 -12 -41 c-7 -23 -27 -72 -46 -111 l-33 -70 51 -84 51
+											-83 -125 -125 -125 -125 -83 50 -84 49 -72 -33 c-40 -18 -90 -38 -111 -44
+											l-39 -12 -30 -116 c-22 -90 -33 -116 -44 -113 -8 2 -37 11 -65 19 -55 16 -228
+											22 -287 9 l-38 -8 0 192 0 191 23 -6 c204 -60 405 -38 577 61 83 49 214 180
+											263 263 21 36 49 101 64 145 23 71 26 96 26 215 0 119 -3 144 -26 215 -38 115
+											-91 199 -182 290 -91 91 -175 144 -290 182 -71 23 -96 26 -215 26 -118 1 -145
+											-3 -212 -25 -119 -39 -204 -92 -294 -182 -195 -196 -258 -450 -178 -723 l6
+											-23 -181 0 -181 0 0 209 0 209 94 23 94 22 12 41 c7 23 27 73 46 111 l33 70
+											-51 84 -51 83 126 125 125 126 83 -50 82 -50 73 33 c40 18 90 38 111 43 l39
+											11 23 95 23 95 178 0 178 0 23 -94z m-95 -397 c192 -34 363 -189 430 -389 28
+											-83 26 -244 -4 -332 -106 -308 -431 -462 -736 -348 -43 16 -63 30 -75 53 -34
+											63 -99 133 -157 168 -52 32 -62 43 -83 95 -108 266 12 575 272 703 118 58 225
+											73 353 50z m-672 -961 c55 -16 138 -99 154 -154 8 -28 12 -126 12 -301 l0
+											-260 -40 -27 c-23 -15 -59 -43 -80 -62 l-39 -36 -3 296 c-3 279 -4 296 -24
+											322 -11 15 -33 37 -48 48 -27 21 -30 21 -1366 21 -1336 0 -1339 0 -1366 -21
+											-15 -11 -37 -33 -48 -48 -21 -27 -21 -37 -24 -857 l-2 -829 -80 0 -80 0 0 856
+											c0 643 3 867 12 898 15 51 99 137 148 153 53 17 2818 17 2874 1z m-154 -1108
+											l0 -800 -80 0 -80 0 0 720 0 720 -240 0 -240 0 0 -720 0 -720 -80 0 -80 0 0
+											560 0 560 -240 0 -240 0 0 -560 0 -560 -80 0 -80 0 0 400 0 400 -240 0 -240 0
+											0 -400 0 -400 -320 0 -320 0 0 800 0 800 1280 0 1280 0 0 -800z m-320 -160 l0
+											-640 -80 0 -80 0 0 640 0 640 80 0 80 0 0 -640z m1075 465 c237 -62 393 -291
+											358 -529 -28 -194 -168 -351 -358 -401 -250 -65 -513 94 -580 350 -89 343 237
+											669 580 580z m-1715 -625 l0 -480 -80 0 -80 0 0 480 0 480 80 0 80 0 0 -480z
+											m-640 -160 l0 -320 -80 0 -80 0 0 320 0 320 80 0 80 0 0 -320z m1854 -188 c20
+											-15 24 -23 15 -27 -41 -14 -102 -35 -105 -35 -2 0 -4 32 -4 72 l0 72 33 -30
+											c17 -17 45 -40 61 -52z m556 -147 c52 -9 99 -20 103 -24 8 -8 -262 -1001 -273
+											-1001 -11 0 -281 993 -273 1001 14 14 172 37 263 38 47 0 128 -6 180 -14z
+											m-441 -666 c90 -324 162 -592 159 -594 -2 -2 -65 104 -140 236 l-137 240 44
+											88 44 88 -93 92 -92 92 -22 137 c-12 75 -22 144 -22 153 0 12 67 56 90 58 3 1
+											79 -265 169 -590z m756 569 c25 -12 45 -29 45 -37 0 -9 -10 -78 -22 -153 l-22
+											-137 -92 -92 -93 -92 44 -88 44 -87 -137 -240 c-75 -132 -139 -238 -141 -236
+											-3 3 322 1184 326 1184 1 0 23 -10 48 -22z m-1417 -137 c-45 -49 -103 -120
+											-128 -159 l-45 -71 -1104 0 c-839 -1 -1114 2 -1145 11 -55 16 -138 99 -154
+											154 -7 23 -12 67 -12 98 l0 56 1336 0 1336 0 -84 -89z m261 -53 c6 -35 16 -97
+											22 -138 11 -74 12 -76 81 -146 l70 -71 -37 -72 -36 -72 124 -217 c68 -119 129
+											-227 136 -239 l12 -23 -211 0 -210 0 0 320 0 320 -80 0 -80 0 0 -320 0 -320
+											-121 0 -122 0 6 163 c3 89 13 192 21 228 50 220 159 415 319 572 44 42 83 77
+											87 77 5 0 13 -28 19 -62z m1448 -15 c160 -157 267 -349 319 -573 8 -36 18
+											-138 21 -227 l6 -163 -122 0 -121 0 0 320 0 320 -80 0 -80 0 0 -320 0 -320
+											-210 0 -211 0 12 23 c7 12 68 120 136 239 l124 217 -36 72 -37 72 70 71 c69
+											70 70 72 81 146 24 154 33 200 41 200 4 0 43 -35 87 -77z m-1972 -340 c-14
+											-38 -54 -182 -60 -219 -3 -22 -8 -49 -11 -61 l-4 -23 -605 0 -605 0 0 160 0
+											160 646 0 c611 0 646 -1 639 -17z m-85 -543 l0 -80 -840 0 -840 0 0 80 0 80
+											840 0 840 0 0 -80z"/>
+											<path d="M3746 4230 c-63 -16 -153 -70 -197 -117 -22 -24 -55 -74 -72 -111
+											-29 -61 -32 -76 -32 -163 0 -90 2 -99 37 -171 45 -91 103 -147 196 -191 61
+											-29 76 -32 162 -32 86 0 101 3 162 32 93 44 151 100 196 191 35 72 37 81 37
+											172 0 91 -2 100 -37 172 -68 136 -188 217 -336 224 -42 2 -94 -1 -116 -6z
+											m168 -162 c86 -26 166 -136 166 -228 0 -124 -116 -240 -240 -240 -63 0 -114
+											23 -165 75 -102 101 -102 229 0 330 70 71 145 90 239 63z"/>
+											<path d="M720 2880 l0 -80 80 0 80 0 0 80 0 80 -80 0 -80 0 0 -80z"/>
+											<path d="M1040 2880 l0 -80 80 0 80 0 0 80 0 80 -80 0 -80 0 0 -80z"/>
+											<path d="M1360 2880 l0 -80 80 0 80 0 0 80 0 80 -80 0 -80 0 0 -80z"/>
+											<path d="M720 2560 l0 -80 400 0 400 0 0 80 0 80 -400 0 -400 0 0 -80z"/>
+											</g>
+											</svg>
+														</span>
+														<span class="menu-title">Administration</span>
+													</span>
+													<!--end:Menu link-->
+												</div>
+												<!--end:Menu item-->
+											</div>
+											<!--end::Menu-->
+										</div>
+										
+											
+											<!--end::Menu-->
+										</div>
+										<!--end::Menu wrapper-->
+								<!--begin::Navbar-->
+								<div class="app-navbar flex-shrink-0">
+									
+									<div class="app-navbar-item ms-1 ms-lg-3">
+										
+									<!--begin::Menu wrapper-->
+										
+										
+									</div>
+									
+									
+									<!--begin::User menu-->
+									<div class="app-navbar-item ms-1 ms-lg-3" id="kt_header_user_menu_toggle">
+										<!--begin::Menu wrapper-->
+										<div class="cursor-pointer symbol symbol-35px symbol-md-40px" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
+											<img src="images/user.jpg" alt="user" />
+											<span class="svg-icon svg-icon-primary svg-icon-x"><!--begin::Svg Icon --><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+											<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+												<polygon points="0 0 24 0 24 24 0 24"/>
+												<path d="M6.70710678,15.7071068 C6.31658249,16.0976311 5.68341751,16.0976311 5.29289322,15.7071068 C4.90236893,15.3165825 4.90236893,14.6834175 5.29289322,14.2928932 L11.2928932,8.29289322 C11.6714722,7.91431428 12.2810586,7.90106866 12.6757246,8.26284586 L18.6757246,13.7628459 C19.0828436,14.1360383 19.1103465,14.7686056 18.7371541,15.1757246 C18.3639617,15.5828436 17.7313944,15.6103465 17.3242754,15.2371541 L12.0300757,10.3841378 L6.70710678,15.7071068 Z" fill="#000000" fill-rule="nonzero" transform="translate(12.000003, 11.999999) rotate(-180.000000) translate(-12.000003, -11.999999) "/>
+											</g>
+										</svg><!--end::Svg Icon--></span>
+										</div>
+										<!--begin::User account menu-->
+											<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-color fw-semibold py-4 fs-6 w-275px rounded-0" data-kt-menu="true">
+												
+												<!--begin::Menu item-->
+												<div class="menu-item px-5">
+													<a href="#" class="menu-link px-5">My Profile</a>
+												</div>
+
+												<!--begin::Menu item-->
+												<div class="menu-item px-5">
+													<a href="#" class="menu-link px-5">Sign Out</a>
+												</div>
+												<!--end::Menu item-->
+											</div>
+											<!--end::User account menu-->
+										<!--end::Menu wrapper-->
+									</div>
+									<!--end::User menu-->
+									<!--begin::Header menu toggle-->
+									<div class="app-navbar-item d-lg-none ms-2 me-n3" title="Show header menu">
+										<div class="btn btn-icon btn-active-color-primary w-35px h-35px" id="kt_app_header_menu_toggle">
+											<!--begin::Svg Icon | path: icons/duotune/text/txt001.svg-->
+											<span class="svg-icon svg-icon-1">
+												<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M13 11H3C2.4 11 2 10.6 2 10V9C2 8.4 2.4 8 3 8H13C13.6 8 14 8.4 14 9V10C14 10.6 13.6 11 13 11ZM22 5V4C22 3.4 21.6 3 21 3H3C2.4 3 2 3.4 2 4V5C2 5.6 2.4 6 3 6H21C21.6 6 22 5.6 22 5Z" fill="currentColor" />
+													<path opacity="0.3" d="M21 16H3C2.4 16 2 15.6 2 15V14C2 13.4 2.4 13 3 13H21C21.6 13 22 13.4 22 14V15C22 15.6 21.6 16 21 16ZM14 20V19C14 18.4 13.6 18 13 18H3C2.4 18 2 18.4 2 19V20C2 20.6 2.4 21 3 21H13C13.6 21 14 20.6 14 20Z" fill="currentColor" />
+												</svg>
+											</span>
+											<!--end::Svg Icon-->
+										</div>
+									</div>
+									<!--end::Header menu toggle-->
+								</div>
+								<!--end::Navbar-->
+						</div>
+						<!--end::Header wrapper-->
+					</div>
+					<!--end::Header container-->
+				</div>
+				<!--begin::Header-->
+				
+				<!--begin::Wrapper-->
+				<div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">
+					
+					<!--begin::Main-->
+					<div class="app-main flex-column flex-row-fluid" id="kt_app_main">
+						<!--begin::Content wrapper-->
+						<div class="d-flex flex-column flex-column-fluid">
+							<!--begin::Toolbar-->
+							<div id="kt_app_toolbar" class="app-toolbar py-3 py-lg-6">
+								<!--begin::Toolbar container-->
+								<div id="kt_app_toolbar_container" class="app-container container-fluid d-flex flex-stack">
+									<!--begin::Page title-->
+									<div class="page-title d-flex align-items-center flex-wrap me-3 mb-5 mb-lg-0">
+										<!--begin::Title-->
+										<h1 class="page-heading d-flex text-dark fw-bold fs-2 flex-column justify-content-center my-0">Add Vehicle Estimate</h1>
+										<span class="h-20px border-gray-300 border-start mx-4"></span>
+										<!--end::Title-->
+										<!--begin::Breadcrumb-->
+										<ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0">
+											<!--begin::Item-->
+											<li class="breadcrumb-item text-muted">
+												<a href="#" class="text-dark text-hover-primary">Home</a>
+											</li>
+											<!--end::Item-->
+											<!--begin::Item-->
+											<li class="breadcrumb-item">
+												<span class="bullet bg-gray-400 w-5px h-2px"></span>
+											</li>
+											<!--end::Item-->
+											<!--begin::Item-->
+											<li class="breadcrumb-item">
+												<a href="#" class="text-dark text-hover-primary">Vehicle Estimate</a>
+											</li>
+											<li class="breadcrumb-item">
+												<span class="bullet bg-gray-400 w-5px h-2px"></span>
+											</li>
+											<li class="breadcrumb-item">
+												<a href="#" class="text-dark text-hover-primary">Add Vehicle Estimate</a>
+											</li>
+											
+										</ul>
+
+									</div>
+									<!--end::Page title-->
+									
+								</div>
+								<!--end::Toolbar container-->
+							</div>
+							<!--end::Toolbar-->
+							<!--begin::Content-->
+							<div id="kt_app_content" class="app-content flex-column-fluid">
+								<!--begin::Content container-->
+							  <div id="kt_app_content_container" class="app-container container-fluid">
+									<!--begin::Row-->
+									<div class="row">
+        
+									<!--begin::Col-->
+										<div class="col-md-12">
+											<div class="card border mb-3 rounded-0">
+												<div class="card-header bg-darkblue rounded-0">
+													<h2 class="card-title fw-bolder fs-2 text-white">Add Vehicle Estimate</h2>
+												</div>
+												<div class="card-body pt-3 rounded-0">
+													<p class="text-end text-red mb-1">* indicates mandatory</p>
+													<div class="form-group row">
+														<div class="col-lg-6">
+															<label class="form-label fw-bold">Vehicle:</label>
+															<input type="email" class="form-control" placeholder="Enter Vehicle" >
+														</div>
+														<div class="col-lg-6">
+															<label class="form-label fw-bold">Make:</label>
+															<input type="email" class="form-control" placeholder="Enter Make" >
+														</div>
+													</div>
+													<div class="form-group row mt-5">
+														<div class="col-lg-6">
+															<label class="form-label fw-bold">Model: </label>
+															<input type="email" class="form-control" placeholder="Enter Model" >
+														</div>
+														<div class="col-lg-6">
+															<label class="form-label fw-bold">Year:</label>
+															<input type="email" class="form-control" placeholder="Enter Year" >
+														</div>
+														
+													</div>
+													<div class="form-group row mt-5">
+														
+														<div class="col-lg-6">
+															<label class="form-label fw-bold">Engine: <span class="text-red">*</span></label>
+															<input type="email" class="form-control" placeholder="Enter Engine">
+														</div>
+														<div class="col-lg-6">
+															<label class="form-label fw-bold">Transmission: <span class="text-red">*</span></label>
+															<input type="email" class="form-control" placeholder="Enter Transmission">
+														</div>
+													</div>
+													
+													<div class="form-group row mt-5">
+														
+														<div class="col-lg-6">
+															<label class="form-label fw-bold">Differential: <span class="text-red">*</span></label>
+															<input type="email" class="form-control" placeholder="Enter Differential">
+														</div>
+														<div class="col-lg-6">
+															<label class="form-label fw-bold">Project Description: <span class="text-red">*</span></label>
+															<input type="email" class="form-control" placeholder="Enter Project Description">
+														</div>
+													</div>
+													
+													
+													<div class="mt-5">
+															<a href="#" class="btn btn-red px-7 me-5 h-40px">
+																<span class="indicator-label text-white">Cancel</span>
+															</a>
+															<a href="search-vehicle.html" class="btn btn-blue px-10 h-40px" id="btnShow">
+																<span class="indicator-label">Save</span>
+															</a>
+															
+															
+														</div>
+														
+												</div>
+											</div>	
+												
+											
+											
+											
+										</div>
+										<!--end::Col-->
+										
+									</div>
+								</div>
+								
+								
+								</div>
+								<!--end::Content container-->
+							</div>
+							<!--end::Content-->
+						</div>
+						<!--end::Content wrapper-->
+						<!--begin::Footer-->
+						<div id="kt_app_footer" class="app-footer">
+							<!--begin::Footer container-->
+							<div class="app-container container-fluid d-flex flex-column flex-md-row flex-center flex-md-stack py-3">
+								<!--begin::Copyright-->
+								<div class="text-dark order-2 order-md-1">
+									<span class="text-dark fw-semibold me-1">Copyright &copy; 2024</span>
+									
+								</div>
+								<!--end::Copyright-->
+								<!--begin::Menu-->
+								<ul class="menu menu-gray-600 menu-hover-primary fw-semibold order-1">
+									<li class="menu-item">
+										<a href="#" class="menu-link px-2">Menu 1</a>
+									</li>
+									<li class="menu-item">
+										<a href="#" class="menu-link px-2">Menu 2</a>
+									</li>
+									<li class="menu-item">
+										<a href="#" class="menu-link px-2">Menu 3</a>
+									</li>
+								</ul>
+								<!--end::Menu-->
+							</div>
+							<!--end::Footer container-->
+						</div>
+						<!--end::Footer-->
+					</div>
+					<!--end:::Main-->
+				</div>
+				<!--end::Wrapper-->
+			</div>
+			<!--end::Page-->
+
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				 <!--  <div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Confirm Delete</h5>
+				  </div> -->
+				  <div class="modal-body">
+					<p class="text-center fs-3">Are you sure you want to Delete Record?</p>
+					<div class="text-center">
+					<button type="button" class="btn btn-secondary h-40px me-4" data-dismiss="modal">Cancel</button>
+					<button type="button" class="btn btn-red text-white h-40px" data-dismiss="modal">Delete</button>
+				  </div>
+				  </div>
+				  
+				</div>
+			  </div>
+			</div>
+		</div>
+		<!--end::App-->
+		<!--begin::Scrolltop-->
+		<div id="kt_scrolltop" class="scrolltop" data-kt-scrolltop="true">
+			<!--begin::Svg Icon | path: icons/duotune/arrows/arr066.svg-->
+			<span class="svg-icon">
+				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<rect opacity="0.5" x="13" y="6" width="13" height="2" rx="1" transform="rotate(90 13 6)" fill="currentColor" />
+					<path d="M12.5657 8.56569L16.75 12.75C17.1642 13.1642 17.8358 13.1642 18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25L12.7071 5.70711C12.3166 5.31658 11.6834 5.31658 11.2929 5.70711L5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75C6.16421 13.1642 6.83579 13.1642 7.25 12.75L11.4343 8.56569C11.7467 8.25327 12.2533 8.25327 12.5657 8.56569Z" fill="currentColor" />
+				</svg>
+			</span>
+			<!--end::Svg Icon-->
+		</div>
+		<!--end::Scrolltop-->
+		
+		<script src="plugins/global/plugins.bundle.js"></script>
+		<script src="js/scripts.bundle.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		
+	</body>
+
+</html>
